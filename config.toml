@@ -1,0 +1,3 @@
+baseURL = "http://labs.couchbase.com/"
+languageCode = "en-us"
+title = "Couchbase Labs"
