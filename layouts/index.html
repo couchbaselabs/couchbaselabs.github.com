@@ -1,6 +1,7 @@
 {{ partial "header.html" . }}
 
 {{ .Content }}
+
 <div class="guide-grid">
     {{ range .Pages }}
         <div class="guide-grid-item">
@@ -10,4 +11,4 @@
     {{ end }}
 </div>
 
-{{ partial "header.html" . }}
+{{ partial "footer.html" . }}
