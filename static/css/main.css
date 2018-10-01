@@ -1,0 +1,16 @@
+.guide-grid {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    display: block;
+}
+
+.guide-grid-item {
+    display: inline-block;
+    width: 30%;
+    margin: 0 5 20 0;
+    vertical-align: top;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+}

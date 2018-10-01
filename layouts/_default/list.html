@@ -1,13 +1,17 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{{.Title}}</title>
+        <title>{{ .Title }}</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
         {{ .Content }}
-        <div style="border-style: solid; border-width: thin; border-color: black; display: block;">
+        <div class="guide-grid">
             {{ range .Pages }}
-                {{ partial "grid-item.html" . }}
+                <div class="guide-grid-item">
+                    <a href="{{ .URL }}">{{.Title}}</a>
+                    <p>{{.Description}}</p>
+                </div>
             {{ end }}
         </div>
     </body>
