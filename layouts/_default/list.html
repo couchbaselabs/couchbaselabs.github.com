@@ -1,18 +1,5 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ .Title }}</title>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-    </head>
-    <body>
-        {{ .Content }}
-        <div class="guide-grid">
-            {{ range .Pages }}
-                <div class="guide-grid-item">
-                    <a href="{{ .URL }}">{{.Title}}</a>
-                    <p>{{.Description}}</p>
-                </div>
-            {{ end }}
-        </div>
-    </body>
-</html>
+{{ partial "header.html" . }}
+
+{{ .Content }}
+
+{{ partial "footer.html" . }}
