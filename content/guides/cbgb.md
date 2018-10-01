@@ -1,4 +1,3 @@
 ---
 title: "CBGB"
-draft: false
 ---
