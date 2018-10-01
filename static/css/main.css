@@ -6,11 +6,12 @@
 }
 
 .guide-grid-item {
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
     display: inline-block;
     width: 30%;
     margin: 0 5 20 0;
     vertical-align: top;
-    border-style: solid;
-    border-width: thin;
-    border-color: black;
+    padding: 5px;
 }

@@ -1,5 +1,8 @@
 ---
 title: "CBFT"
+description: "Integrating couchbase with the bleve full-text search engine"
 ---
 
-Something interesting here:
+# CBFT
+
+[github](http://github.com/couchbaselabs/cbft)

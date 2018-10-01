@@ -1,4 +1,8 @@
 ---
 title: "CBFS"
-description: "Learn how to use CBFS"
+description: "A gigantic, content addressable object store"
 ---
+
+# CBFS
+
+[github](http://github.com/couchbaselabs/cbfs)
