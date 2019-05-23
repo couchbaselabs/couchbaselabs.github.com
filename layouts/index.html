@@ -1,14 +1,4 @@
-{{ partial "header.html" . }}
-
+{{ define "main" }}
 {{ .Content }}
-
-<div class="guide-grid">
-    {{ range .Pages }}
-        <div class="guide-grid-item">
-            <a href="{{ .RelPermalink }}">{{.Title}}</a>
-            <p>{{.Description}}</p>
-        </div>
-    {{ end }}
-</div>
-
-{{ partial "footer.html" . }}
+{{ partial "guides.html" . }}
+{{ end }}
