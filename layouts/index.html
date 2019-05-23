@@ -5,7 +5,7 @@
 <div class="guide-grid">
     {{ range .Pages }}
         <div class="guide-grid-item">
-            <a href="{{ .URL }}">{{.Title}}</a>
+            <a href="{{ .RelPermalink }}">{{.Title}}</a>
             <p>{{.Description}}</p>
         </div>
     {{ end }}
